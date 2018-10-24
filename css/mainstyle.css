@@ -1,0 +1,40 @@
+@font-face{
+	font-family: 'iransans';
+	src: url(../fonts/iransans/eot/IRANSansWeb.eot) format('eot'),
+		url(../fonts/iransans/ttf/IRANSansWeb.ttf) format('ttf'),
+		url(../fonts/iransans/woff/IRANSansWeb.woff) format('woff');
+}
+
+body{
+    direction: rtl;
+    font-family: iransans;
+}
+
+#wrapper{
+    width: 1000px;
+    margin:30px auto 0;
+    //background-color: goldenrod;
+}
+
+#picheader{
+
+    width: 1000px;
+    height: 500px;
+}
+#mainNavigation{
+    background-color: black;
+  
+}
+ul{
+    
+}
+ul li{
+    display: inline;
+    margin-right: 20px;
+    margin-right: 20px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
