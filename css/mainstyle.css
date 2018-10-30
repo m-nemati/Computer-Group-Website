@@ -14,9 +14,12 @@ body{
     width: 1000px;
     margin:30px auto 0;
 }
-
+#txtTitle{
+    background-image: url('../images/txtheader.png');
+    color: black;
+}
 #txtTitle h1{
-    text-shadow:0px 2px rgb(10, 142, 230);
+    text-shadow:0px 2px rgb(12, 12, 12);
 }
 
 #mainNavigation{
@@ -31,13 +34,14 @@ body{
 }
 #mainNavigation ul li{
    display: inline;
-   padding-left: 45px;
+   padding-left: 40px;
 
 }
+
 #mainNavigation ul li a{
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #mainNavigation ul li a:hover{
@@ -51,4 +55,53 @@ body{
 
     width: 1000px;
     height: 440px;
+}
+
+/* Footer Styles*/
+#footer{
+    background-color: #333;
+    color: #fff;
+    
+}
+.rightDiv{
+    width: 450px;
+    float: right;
+    margin-right: 25px;
+}
+.rightDiv a{
+    text-decoration: none;
+    color: #fff;
+}
+.rightDiv a:hover{
+   color: violet;
+}
+.leftDiv{
+    width: 450px;
+    float: left;
+}
+#socialIcon a{
+    text-decoration: none;
+    color: #fff;
+}
+#colorLine{
+    clear: both;
+}
+.line{
+    width: 250px;
+    height: 2px;
+    border: none;
+    float: right;
+    padding-right: 0;
+    margin-right: 0;
+    color: black;
+    
+}
+.copyrightSection{
+    clear: both;   
+}
+.copyright{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 14px;
+    
 }
