@@ -1,118 +1,135 @@
-@font-face{
-	font-family: 'iransans';
-	src: url(../fonts/iransans/eot/IRANSansWeb.eot) format('eot'),
-		url(../fonts/iransans/ttf/IRANSansWeb.ttf) format('ttf'),
-		url(../fonts/iransans/woff/IRANSansWeb.woff) format('woff');
+@font-face {
+  font-family: "iransans";
+  src: url(../fonts/iransans/eot/IRANSansWeb.eot) format("eot"),
+    url(../fonts/iransans/ttf/IRANSansWeb.ttf) format("ttf"),
+    url(../fonts/iransans/woff/IRANSansWeb.woff) format("woff");
 }
 
-body{
-    direction: rtl;
-    font-family: iransans;
+body {
+  direction: rtl;
+  font-family: iransans;
 }
 
-#wrapper{
-    width: 1000px;
-    margin:20px auto 0;
+#wrapper {
+  width: 1000px;
+  margin: 20px auto 0;
 }
 @keyframes example {
-    from {color:violet}
-    to {color: yellow}
+  from {
+    color: violet;
+  }
+  to {
+    color: yellow;
+  }
 }
-#txtTitle{
-    background-image: url('../images/txtheader.png');
-    color: rgb(255, 255, 255);
-    padding: 0.1px;
+#txtTitle {
+  background-image: url("../images/txtheader.png");
+  color: rgb(255, 255, 255);
+  padding: 0.1px;
 }
-#txtTitle h1,h2{
-    background-color: rgba(3, 3, 3, 0.2);
-    padding-right: 25px;
-    animation-name: example;
-    animation-duration: 5s;
+#txtTitle h1,
+h2 {
+  background-color: rgba(3, 3, 3, 0.2);
+  padding-right: 25px;
+  animation-name: example;
+  animation-duration: 5s;
 }
-
-#mainNavigation{
-    background-color: #333;
-    height: 70px;
-  
+/* Styles for Navigation*/
+#mainNavigation {
+  background-color: #333;
+  height: 70px;
 }
-#mainNavigation nav ul{
-    list-style-type: none;
-    margin-right: 0;
-    
+#mainNavigation nav ul {
+  list-style-type: none;
+  margin-right: 0;
 }
-#mainNavigation ul li{
-   display: inline;
-   padding-left: 40px;
-
-}
-
-#mainNavigation ul li a{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
+#mainNavigation ul li {
+  display: inline;
+  padding-left: 40px;
 }
 
-#mainNavigation ul li a:hover{
-    color: rgb(0, 230, 64);
-    font-size: 22px;
+#mainNavigation ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
 }
 
-#imgaheHeader{
-    margin-top: 10px;
+#mainNavigation ul li a:hover {
+  color: rgb(0, 230, 64);
+  font-size: 22px;
 }
-#picheader{
+/* Stlyle for Image Header*/
+#imgaheHeader {
+  margin-top: 10px;
+}
+#picheader {
+  width: 1000px;
+  height: 440px;
+}
 
-    width: 1000px;
-    height: 440px;
+/* Style for Right Panel*/
+#rightPanel {
+  width: 200px;
+  background-color: rgb(240, 96, 173);
+  height: 300px;
+  float: right;
+}
+
+/*Style for Main body Panel*/
+#mainBody {
+  width: 750px;
+  background-color: rgb(245, 168, 181);
+  height: 300px;
+  float: left;
+  margin-bottom: 10px;
 }
 
 /* Footer Styles*/
-#footer{
-    background-color: #333;
-    color: #fff;
-    
+#footer {
+  background-color: #333;
+  color: #fff;
+  margin-top: 10px;
+  clear: both;
 }
-.rightDiv{
-    width: 450px;
-    float: right;
-    margin-right: 25px;
+.rightDiv {
+  width: 450px;
+  float: right;
+  margin-right: 25px;
 }
-.rightDiv a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;
+.rightDiv a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
 }
-.rightDiv a:hover{
-   color: rgb(0, 230, 64);
-   font-size: 18px;
+.rightDiv a:hover {
+  color: rgb(0, 230, 64);
+  font-size: 18px;
 }
-.leftDiv{
-    width: 450px;
-    float: left;
+.leftDiv {
+  width: 450px;
+  float: left;
 }
-#socialIcon a{
-    text-decoration: none;
-    color: #fff;
+#socialIcon a {
+  text-decoration: none;
+  color: #fff;
 }
-#colorLine{
-    clear: both;
+#colorLine {
+  clear: both;
 }
-.line{
-    width: 250px;
-    height: 2px;
-    border: none;
-    float: right;
-    padding-right: 0;
-    margin-right: 0;
-    color: black;
-    
+.line {
+  width: 250px;
+  height: 2px;
+  border: none;
+  float: right;
+  padding-right: 0;
+  margin-right: 0;
+  color: black;
 }
-.copyrightSection{
-    clear: both;   
+.copyrightSection {
+  clear: both;
 }
-.copyright{
-    text-align: center;
-    padding-bottom: 20px;
-    font-size: 14px;
-    
+.copyright {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 14px;
 }
