@@ -1,9 +1,4 @@
-@font-face {
-  font-family: "iransans";
-  src: url(../fonts/iransans/eot/IRANSansWeb.eot) format("eot"),
-    url(../fonts/iransans/ttf/IRANSansWeb.ttf) format("ttf"),
-    url(../fonts/iransans/woff/IRANSansWeb.woff) format("woff");
-}
+
 
 body {
   direction: rtl;
@@ -59,7 +54,7 @@ h2 {
   font-size: 22px;
 }
 /* Stlyle for Image Header*/
-#imgaheHeader {
+#imageHeader {
   margin-top: 10px;
 }
 #picheader {

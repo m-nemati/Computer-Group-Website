@@ -1,0 +1,18 @@
+body{
+    direction: rtl;
+    font-family: iransans;
+}
+
+#wrapper{
+    width: 1000px;
+    margin: 20px auto 0;
+
+}
+
+#regbanner{
+    width: 1000px;
+
+}
+.redstar{
+    color: red;
+}
