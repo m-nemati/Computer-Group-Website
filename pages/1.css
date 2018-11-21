@@ -1,0 +1,26 @@
+#div1 {text-align: center;
+    background: rgb(255, 70, 184);
+    width: 1000px;
+    margin: 20px auto 0;
+    direction: rtl;
+}
+body {
+    background: rgb(66, 35, 95);
+    direction: rtl;
+}
+#reset1 {
+    font-size: 20px;
+    background: rgb(255, 0, 0);
+    direction: rtl;  width: 1000px;
+    margin: 20px auto 0;
+}
+#submit1 {
+    font-size: 20px;
+    background: green;  width: 1000px;
+    margin: 20px auto 0;
+}
+header {
+    font-size: 50px;
+    text-align: center;
+    color: snow;
+}
