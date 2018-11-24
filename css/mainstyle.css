@@ -6,8 +6,12 @@ body {
 }
 
 #wrapper {
+  position: absolute;
   width: 1000px;
   margin: 20px auto 0;
+  left: 0;
+  right: 0;
+  
 }
 @keyframes example {
   from {
@@ -56,12 +60,15 @@ h2 {
 
 .fixNav{
   width: 1000px;
+  background-color: rgb(34, 167, 240) !important;
   position: fixed;
-  margin: 0 auto 0;
   left: 0;
   right: 0;
   top: 0;
+  margin: 0 auto 0;
   padding-bottom: 20px;
+  opacity: 0.9;
+  
 }
 
 /* Stlyle for Image Header*/
