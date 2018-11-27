@@ -12,4 +12,10 @@ $(document).ready(function(){
             $("nav").removeClass("fixNav");
         }
     })
+
+
+    $(".dropbtn").click(function(){
+        $(".dropdownContent").toggle();
+    });
+
 })
