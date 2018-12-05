@@ -7,9 +7,11 @@ $(document).ready(function(){
     
         if(scroll_Top>200){
             $("nav").addClass("fixNav");
+            $("#totop").css('display','inline');
         }
         else{
             $("nav").removeClass("fixNav");
+            $("#totop").css('display','none');
         }
     })
 
@@ -17,5 +19,9 @@ $(document).ready(function(){
     $(".dropbtn").click(function(){
         $(".dropdownContent").toggle();
     });
+
+    $("#totop").click(function(){
+        $("html").animate({scrollTop:0},1000);
+    })
 
 })
