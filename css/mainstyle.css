@@ -112,13 +112,69 @@ h2 {
 }
 
 /* Stlyle for Image Header*/
+/*slider */
 #imageHeader {
   margin-top: 10px;
+ 
 }
 #picheader {
   width: 1000px;
-  height: 440px;
+  height: 450px;
 }
+
+.sliderphotos {
+  width: 1000px;
+  height: 450px;
+  border: 5px solid #0000ff3b;
+  box-sizing: border-box;
+ 
+}
+
+.prev {
+position: absolute;
+background: url(../images/slider/prev.png);
+width: 70px;
+height: 70px;
+top: 420px;
+left: 13px;
+z-index: 1;
+cursor: pointer;
+opacity: 0.7;
+}
+
+.next {
+position: absolute;
+background: url(../images/slider/next.png);
+width: 70px;
+height: 70px;
+top: 420px;
+right: 13px;
+z-index: 1;
+cursor: pointer;
+opacity: 0.7;
+}
+
+.next,.prev {
+-webkit-transition: all 0.6s;
+-o-transition: all 0.6s;
+transition: all 0.6s;
+}
+
+.prev:hover {
+opacity: 0.5;
+left: 10px;
+}
+
+.next:hover {
+opacity: 0.5;
+right: 10px;
+}
+
+img:not(.active) {
+display: none;
+}
+
+
 
 /* Style for Right Panel*/
 #rightPanel {
