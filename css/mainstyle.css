@@ -118,6 +118,7 @@ h2 {
   margin-top: 10px;
   height: 500px;
   margin-bottom: 10px;
+  width: 1000px;
  
 }
 #picheader {
@@ -125,6 +126,9 @@ h2 {
   height: 450px;
 }
 
+.imgs1{
+  width: 1000px;
+}
 
 
 
