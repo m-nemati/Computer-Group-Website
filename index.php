@@ -1,4 +1,9 @@
 
+<?php
+require_once ('pages/connect.php');
+
+
+?>
 <!DOCTYPE html>
 <html lang="fa">
   <head>
@@ -157,7 +162,20 @@
         <div id="rightPanel"></div>
         <!-- Main Page Content Div -->
         <div id="mainBody">
-        
+        <?php
+        $sql="SELECT * FROM tbl_news  ORDER BY newsID DESC LIMIT 10";
+        $st=$strConn->prepare($sql);
+        $st->execute();
+        foreach($st as $row){
+          ?>
+          <article class="postNews">
+          <h3><?php   echo($row['newsTitle'])   ?></h3>
+          <p><?php   echo($row['newsContent'])   ?></p>
+          </article>
+          <hr>
+
+          <?php
+          }?>
         
         </div>
         <!-- Footer -->
