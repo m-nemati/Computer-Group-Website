@@ -67,4 +67,4 @@ function hashValue($value){
     return hash("sha512", $value);
 }
 ?>
-<h3><a href="../index.html">بازگشت به صفحه اصلی</a></h3>
+<h3><a href="../index.php">بازگشت به صفحه اصلی</a></h3>

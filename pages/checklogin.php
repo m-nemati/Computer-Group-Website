@@ -7,8 +7,6 @@ include_once ('connect.php');
 //Check form is fill or not
 if(isset($_POST['register'])){
 
-
-    //hhhhhhhhhhhhhhhhhhhhh
     if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])){
         
         $captcha=$_POST['g-recaptcha-response'];
